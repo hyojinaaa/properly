@@ -1,7 +1,7 @@
 .contents {
 	text-align: center;
 	padding: 20px;
-	width: 700px;
+	width: 300px;
 	margin: 0 auto;
 }
 
@@ -10,13 +10,13 @@
 }
 
 button {
-	font-size: 80px;
-	padding: 30px 45px;
+	font-size: 30px;
+	padding: 20px 30px;
 	background-color: #ff5722;
 	color: white;
 	border: none;
-	border-radius: 30px;
-	margin-top: 40px;
+	border-radius: 20px;
+	margin-top: 20px;
 	margin-bottom: 20px;
 	cursor: pointer;
 }
@@ -29,12 +29,12 @@ button:hover {
 
 .contents h1 {
 	color: #ff5722;
-	font-size: 100px;
-	padding-top: 40px;
+	font-size: 50px;
+	padding-top: 10px;
 }
 
 .contents p {
-	font-size: 50px;
+	font-size: 25px;
 }
 
 .rslides {
