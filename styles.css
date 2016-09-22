@@ -1,22 +1,22 @@
-div {
+.contents {
 	text-align: center;
 	padding: 20px;
-	width: 250px;
+	width: 700px;
 	margin: 0 auto;
 }
 
-.images {
+.image {
 	display: none;
 }
 
 button {
-	font-size: 20px;
-	padding: 15px;
+	font-size: 80px;
+	padding: 30px 45px;
 	background-color: #ff5722;
 	color: white;
 	border: none;
-	border-radius: 5px;
-	margin-top: 20px;
+	border-radius: 30px;
+	margin-top: 40px;
 	margin-bottom: 20px;
 	cursor: pointer;
 }
@@ -27,8 +27,14 @@ button:hover {
 	border: 1px solid #ff5722;
 }
 
-div h1 {
+.contents h1 {
 	color: #ff5722;
+	font-size: 100px;
+	padding-top: 40px;
+}
+
+.contents p {
+	font-size: 50px;
 }
 
 .rslides {
@@ -63,25 +69,32 @@ div h1 {
   border: 0;
   }
 
-  @media all and (min-width: 480px) {
+  @media all and (min-width: 800px) {
 
-  	div {
+  /*	.contents {
   		width: 450px;
   	}
 
-  	div h1{
+  	.contents h1{
   		font-size: 35px;
   	}
 
-  	div p {
+  	.contents p {
   		font-size: 20px;
   	}
 
-  }
+  }*/
 
-@media all and (min-width: 1336px) {
+@media all and (min-width: 1330px) {
 
-	#contents {
+	button {
+		border-radius: 5px;
+		font-size: 20px;
+		padding: 15px;
+		margin-top: 20px;
+	}
+
+	.contents {
 		width: 700px;
 		text-align: left;
 		float: left;
@@ -90,17 +103,11 @@ div h1 {
 		
 	}
 
-	div:after {
-		content: '';
-		clear: both;
-		display: block;
-	}
-
-	div h1 {
+	.contents h1 {
 		font-size: 40px;
 	}
 
-	div p {
+	.contents p {
 		font-size: 20px;
 	}
 
@@ -111,7 +118,7 @@ div h1 {
 	.image {
 		position: relative;
 		float: right;
-		
+		display: block;
 	}
 
 	#img1 {
