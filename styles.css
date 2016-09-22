@@ -71,7 +71,7 @@ button:hover {
 
   @media all and (min-width: 800px) {
 
-  /*	.contents {
+  	.contents {
   		width: 450px;
   	}
 
@@ -83,7 +83,7 @@ button:hover {
   		font-size: 20px;
   	}
 
-  }*/
+  }
 
 @media all and (min-width: 1330px) {
 
